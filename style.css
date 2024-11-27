@@ -47,8 +47,7 @@ ul {
 	padding: 0px;
 }
 
-li,
-h3 {
+li {
 	list-style: none;
 }
 
@@ -82,7 +81,7 @@ h3 {
 	text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-task {
 	margin: 0;
 	font-size: 18px;
 	line-height: 18px;
@@ -95,7 +94,7 @@ input[type="text"] {
 	color: #888;
 }
 
-input[type="text"]:focus {
+.input-task:focus {
 	color: #333;
 }
 
@@ -124,7 +123,7 @@ li > * {
 	vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > .checkbox {
 	margin: 0 10px;
 }
 
@@ -135,7 +134,7 @@ li > label {
 	width: 226px;
 }
 
-li > input[type="text"] {
+li > .input-task {
 	width: 226px
 }
 
@@ -150,21 +149,21 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .label-task {
 	text-decoration: line-through;
 	color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul li .input-task {
 	display: none
 }
 
-.edit-mode input[type=text] {
+.edit-mode .input-task {
 	display: inline-block;
 	width: 224px
 }
 
-.edit-mode label {
+.edit-mode .label-task {
 	display: none;
 }
