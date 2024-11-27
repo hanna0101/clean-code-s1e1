@@ -16,7 +16,7 @@
 	width: 100%;
 }
 
-.header .more-inf {
+.more-info {
 	font-family: fantasy, cursive;
 }
 
@@ -26,7 +26,7 @@
 	}
 }
 
-.centered-main-page-element {
+.main {
 	display: block;
 	width: 500px;
 	margin: 0 auto 0;
